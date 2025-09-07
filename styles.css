@@ -84,6 +84,7 @@ section#random-info h1 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin-bottom: 30px;
 }
 
 section#random-info div {
@@ -133,4 +134,28 @@ blockquote p {
     font-style: normal;
     font-weight: bold;
     text-align: right;
+}
+
+/* call-to-action */
+section#call-to-action {
+    padding: 80px 300px;
+}
+
+section#call-to-action div#text {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 50px;
+    padding: 30px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section#call-to-action button {
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    align-self: center;
 }
