@@ -15,7 +15,7 @@ footer {
 }
 
 header {
-    padding: 5px 200px;
+    padding: 5px 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -34,7 +34,7 @@ header nav {
 
 /* Hero */
 section#hero {
-    padding: 80px 200px;
+    padding: 80px 300px;
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -73,7 +73,7 @@ section#hero img {
 
 /* random-info */
 section#random-info {
-    padding: 40px 250px 80px 250px;
+    padding: 40px 350px 80px 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,4 +112,25 @@ section#random-info article label {
     font-size: 18px;
     color: #999;
     text-wrap: wrap;
+}
+
+/* quote */
+section#quote {
+    padding: 80px 300px;
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+blockquote p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
 }
